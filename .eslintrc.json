@@ -6,6 +6,7 @@
   "extends": [
     "plugin:react/recommended",
     "airbnb",
+    "prettier/react",
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
@@ -47,7 +48,8 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "no-param-reassign": "off"
   },
   "settings": {
     "import/resolver": {
